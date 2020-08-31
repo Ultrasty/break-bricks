@@ -27,13 +27,6 @@ cc.Class({
     this.gameModel = new GameModel();
     this.startGame();
   },
-  //this.physicsManager.debugDrawFlags =0;
-  // cc.PhysicsManager.DrawBits.e_aabbBit |
-  // cc.PhysicsManager.DrawBits.e_pairBit |
-  // cc.PhysicsManager.DrawBits.e_centerOfMassBit |
-  // cc.PhysicsManager.DrawBits.e_jointBit |
-  // cc.PhysicsManager.DrawBits.e_shapeBit
-  // ; 
   init: function init() {
     this.physicsManager.enabled = true;
     this.gameModel.init();
@@ -69,8 +62,6 @@ cc.Class({
   onBallContactGround: function onBallContactGround(ballNode, groundNode) {
     this.stopGame();
   },
-  onBallContactPaddle: function onBallContactPaddle(ballNode, paddleNode) {},
-  onBallContactWall: function onBallContactWall(ballNode, brickNode) {},
   onDestroy: function onDestroy() {
     this.physicsManager.enabled = false;
   }

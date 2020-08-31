@@ -2,10 +2,8 @@ cc.Class({
     extends: cc.Component,
 
     onLoad: function () {
-        this.node.parent.on("touchmove", (event) => {
-            //将世界坐标转化为本地坐标
-            let touchPoint = this.node.parent.convertToNodeSpace(event.getLocation());
-            this.node.x = touchPoint.x;
+        this.node.parent.on("mousemove", (event) => {///使用事件名mousemove来注册鼠标事件
+            this.node.x = event.getLocation().x;//鼠标移动触发事件给Paddle的位置重新赋值
         });
     },
 
