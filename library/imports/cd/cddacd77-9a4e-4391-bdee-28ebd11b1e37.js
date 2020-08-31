@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '9b280YbFuZJv4QPGPL8e8iv', 'Ball');
-// scripts/view/Ball.js
+cc._RF.push(module, 'cddac13mk5Dkb3uKOvRGx43', 'Ball2');
+// scripts/view/Ball2.js
 
 "use strict";
 
@@ -8,7 +8,7 @@ cc.Class({
   "extends": cc.Component,
   init: function init(gameCtl) {
     this.gameCtl = gameCtl;
-    this.node.position = cc.v2(480, 600); //初始化位置
+    this.node.position = cc.v2(560, 600); //初始化位置
 
     this.getComponent(cc.RigidBody).linearVelocity = cc.v2(200, 700); //初始化速度
   },

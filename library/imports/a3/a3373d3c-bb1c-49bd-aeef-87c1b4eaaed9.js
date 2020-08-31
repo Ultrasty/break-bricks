@@ -10,7 +10,8 @@ cc.Class({
   "extends": cc.Component,
   properties: {
     gameView: require('GameView'),
-    ball: require('Ball'),
+    ball1: require('Ball1'),
+    ball2: require('Ball2'),
     paddle: require('Paddle'),
     brickLayout: require('BrickLayout'),
     overPanel: require('OverPanel')
@@ -25,7 +26,8 @@ cc.Class({
     this.physicsManager.enabled = true;
     this.gameModel.init();
     this.gameView.init(this);
-    this.ball.init(this);
+    this.ball1.init(this);
+    this.ball2.init(this);
     this.paddle.init();
     this.brickLayout.init(this.gameModel.bricksNumber);
     this.overPanel.init(this);
