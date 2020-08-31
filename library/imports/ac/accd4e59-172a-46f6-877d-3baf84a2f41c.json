@@ -1,8 +1,8 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "paddle",
-    "texture": "8cfd58ca-691d-42ca-9ace-b50dc2429fab",
+    "name": "board",
+    "texture": "a1f833bc-e355-4caf-9c5c-c27b58b4f137",
     "atlas": "",
     "rect": [
       3,

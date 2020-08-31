@@ -6,6 +6,11 @@ cc.Class({
         scoreLabel:cc.Label,
     },
 
+    // use this for initialization
+    onLoad: function () {
+
+    },
+
     init(gameCtl){
         this.gameCtl = gameCtl;
         this.node.active = false;
@@ -18,7 +23,7 @@ cc.Class({
         }else{
             this.resultLabel.string = 'GAME OVER';
         }
-        this.scoreLabel.string = "Final Score: " + score;
+        this.scoreLabel.string ='Final Score: '+ score;
     },
 
     onBtnRestart(){

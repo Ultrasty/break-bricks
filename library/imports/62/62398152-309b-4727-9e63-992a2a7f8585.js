@@ -15,10 +15,11 @@ cc.Class({
   },
   init: function init(bricksNumber) {
     this.node.removeAllChildren();
-    this.bricksNumber = bricksNumber;
 
-    for (var i = 0; i < this.bricksNumber; i++) {
-      var brickNode = cc.instantiate(this.brickPrefab);
+    for (var i = 0; i < bricksNumber; i++) {
+      //生成bricksNumber个小球
+      var brickNode = cc.instantiate(this.brickPrefab); //生成新的节点
+
       brickNode.parent = this.node;
       brickNode.x = this.padding + i % this.cols * (brickNode.width + this.spacing) + brickNode.width / 2;
       brickNode.y = -this.padding - Math.floor(i / this.cols) * (brickNode.height + this.spacing) - brickNode.height / 2;

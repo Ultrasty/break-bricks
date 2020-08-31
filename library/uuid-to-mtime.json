@@ -500,143 +500,143 @@
     "relativePath": "model\\primitives.fbx"
   },
   "6d11133d-b702-474b-8b34-25beafd19f23": {
-    "asset": 1497318020000,
-    "meta": 1598602297087,
+    "asset": 1598887340743,
+    "meta": 1598887376162,
     "relativePath": "fonts"
   },
   "f860c958-1c71-4ae2-b501-649a28596a5a": {
-    "asset": 1497318020000,
-    "meta": 1598602297093,
+    "asset": 1598810512000,
+    "meta": 1598887376168,
     "relativePath": "fonts\\b.ttf"
   },
   "57b87105-6460-4f4d-86ac-09ffbd137949": {
-    "asset": 1497318020000,
-    "meta": 1598602297100,
+    "asset": 1598810512000,
+    "meta": 1598887376172,
     "relativePath": "fonts\\b2.ttf"
   },
   "e6150a4a-34c0-496e-b8f2-b288c7710264": {
-    "asset": 1598602297032,
-    "meta": 1598602297101,
+    "asset": 1598887340754,
+    "meta": 1598887376174,
     "relativePath": "migration"
   },
   "5827de4c-20c0-47a6-92b5-603cd3aaf648": {
-    "asset": 1598602288502,
-    "meta": 1598602297185,
+    "asset": 1598810512000,
+    "meta": 1598887376226,
     "relativePath": "migration\\use_v2.0.x_cc.Toggle_event.js"
   },
   "6b9a4a4f-553f-4eeb-85a1-0da8f183631d": {
-    "asset": 1497318020000,
-    "meta": 1598602297186,
+    "asset": 1598887340767,
+    "meta": 1598887376228,
     "relativePath": "prefabs"
   },
   "21b744bb-e2a0-439f-8959-d1cf1492d2d5": {
-    "asset": 1497318020000,
-    "meta": 1598602297188,
+    "asset": 1598887340776,
+    "meta": 1598887376230,
     "relativePath": "scenes"
   },
   "edbd9d67-e2ab-4be8-80b8-5afb06361626": {
-    "asset": 1598602297197,
-    "meta": 1598602297199,
+    "asset": 1598887376237,
+    "meta": 1598887376239,
     "relativePath": "prefabs\\Brick.prefab"
   },
   "67b57183-2cb0-4ab3-92e2-610669d275c2": {
-    "asset": 1497318020000,
-    "meta": 1598602297200,
+    "asset": 1598887340814,
+    "meta": 1598887376241,
     "relativePath": "scripts"
   },
   "6afeca96-9d19-4d0f-8104-c71f315af186": {
-    "asset": 1497318020000,
-    "meta": 1598602297201,
+    "asset": 1598887340800,
+    "meta": 1598887376243,
     "relativePath": "scripts\\controller"
   },
   "4edadf36-9140-4808-8b00-bbfc6d643911": {
-    "asset": 1497318020000,
-    "meta": 1598602297269,
+    "asset": 1598887340810,
+    "meta": 1598887376310,
     "relativePath": "scripts\\model"
   },
-  "ac11f87f-4971-45cd-9033-279edb99cbd8": {
-    "asset": 1497318020000,
-    "meta": 1598602297286,
-    "relativePath": "scripts\\model\\GameModel.js"
-  },
   "2ad79e41-5421-437f-8f76-a4ca4ebf5cdc": {
-    "asset": 1497318020000,
-    "meta": 1598602297287,
+    "asset": 1598887340840,
+    "meta": 1598887376327,
     "relativePath": "scripts\\view"
   },
-  "62398152-309b-4727-9e63-992a2a7f8585": {
-    "asset": 1497318020000,
-    "meta": 1598602297342,
-    "relativePath": "scripts\\view\\BrickLayout.js"
+  "e4735516-de51-4f32-85b4-acadb6a1bb06": {
+    "asset": 1598810512000,
+    "meta": 1598887376399,
+    "relativePath": "scripts\\view\\GameView.js"
   },
   "2ef97242-9501-4637-ab4d-d2e235f1f114": {
-    "asset": 1598808777458,
-    "meta": 1598808777493,
+    "asset": 1598889679303,
+    "meta": 1598889679323,
     "relativePath": "scenes\\game.fire"
   },
   "781eefd2-30d7-4a45-8baa-80a0261353db": {
-    "asset": 1598799181314,
-    "meta": 1598840136451,
+    "asset": 1598887487444,
+    "meta": 1598887542582,
     "relativePath": "textures"
   },
-  "e3c1b51b-f807-4075-89b6-06423ef37434": {
-    "asset": 1497318020000,
-    "meta": 1598602297646,
-    "relativePath": "textures\\button_play.png"
+  "8f051a98-6f3e-4b85-9892-34969dd0a738": {
+    "asset": 1598810512000,
+    "meta": 1598887376499,
+    "relativePath": "textures\\ball.png"
+  },
+  "8cfd58ca-691d-42ca-9ace-b50dc2429fab": {
+    "asset": 1598810512000,
+    "meta": 1598887376700,
+    "relativePath": "textures\\paddle.png"
+  },
+  "a1f833bc-e355-4caf-9c5c-c27b58b4f137": {
+    "asset": 1598810512000,
+    "meta": 1598887376554,
+    "relativePath": "textures\\board.png"
   },
   "3a64b362-3e8e-4714-a144-4fbbb8513e97": {
-    "asset": 1598788319546,
-    "meta": 1598799182957,
+    "asset": 1598810512000,
+    "meta": 1598887376571,
     "relativePath": "textures\\bg.png"
   },
-  "9b28061b-16e6-49bf-840f-18f2fc7bc8af": {
-    "asset": 1598799909363,
-    "meta": 1598799909794,
-    "relativePath": "scripts\\view\\Ball.js"
-  },
   "977cfe9b-21c7-498e-b060-541800511a8b": {
-    "asset": 1526930962000,
-    "meta": 1598844320298,
+    "asset": 1598810512000,
+    "meta": 1598887376752,
     "relativePath": "textures\\mikado_outline_shadow.fnt"
   },
   "f3779477-7dbf-4751-902f-985973720152": {
-    "asset": 1526930962000,
-    "meta": 1598844320295,
+    "asset": 1598810512000,
+    "meta": 1598887376707,
     "relativePath": "textures\\mikado_outline_shadow.png"
   },
-  "a3373d3c-bb1c-49bd-aeef-87c1b4eaaed9": {
-    "asset": 1598868427743,
-    "meta": 1598868428830,
-    "relativePath": "scripts\\controller\\GameCtl.js"
-  },
   "4dc82735-a8ef-4a6d-906c-31919b1e5315": {
-    "asset": 1598870194364,
-    "meta": 1598870221006,
+    "asset": 1598888161094,
+    "meta": 1598888162399,
     "relativePath": "scripts\\view\\Paddle.js"
   },
-  "8cfd58ca-691d-42ca-9ace-b50dc2429fab": {
-    "asset": 1598793465577,
-    "meta": 1598872522726,
-    "relativePath": "textures\\paddle.png"
-  },
-  "e4735516-de51-4f32-85b4-acadb6a1bb06": {
-    "asset": 1598873528844,
-    "meta": 1598873644452,
-    "relativePath": "scripts\\view\\GameView.js"
-  },
   "60425cd1-210e-4b34-867a-2a6679a7f2cd": {
-    "asset": 1598873644045,
-    "meta": 1598873644472,
+    "asset": 1598888371245,
+    "meta": 1598888371691,
     "relativePath": "scripts\\view\\OverPanel.js"
   },
-  "8d6a82a8-1a1e-425f-aa54-a7ff05ca840d": {
-    "asset": 1598874420240,
-    "meta": 1598874422043,
-    "relativePath": "textures\\brick2.png"
+  "62398152-309b-4727-9e63-992a2a7f8585": {
+    "asset": 1598888592273,
+    "meta": 1598888593911,
+    "relativePath": "scripts\\view\\BrickLayout.js"
   },
-  "8f051a98-6f3e-4b85-9892-34969dd0a738": {
-    "asset": 1598874825620,
-    "meta": 1598874828340,
-    "relativePath": "textures\\ball.png"
+  "9b28061b-16e6-49bf-840f-18f2fc7bc8af": {
+    "asset": 1598889039665,
+    "meta": 1598889105387,
+    "relativePath": "scripts\\view\\Ball.js"
+  },
+  "a3373d3c-bb1c-49bd-aeef-87c1b4eaaed9": {
+    "asset": 1598889349509,
+    "meta": 1598889350555,
+    "relativePath": "scripts\\controller\\GameCtl.js"
+  },
+  "ac11f87f-4971-45cd-9033-279edb99cbd8": {
+    "asset": 1598889372194,
+    "meta": 1598889373405,
+    "relativePath": "scripts\\model\\GameModel.js"
+  },
+  "8d6a82a8-1a1e-425f-aa54-a7ff05ca840d": {
+    "asset": 1598885304090,
+    "meta": 1598889589046,
+    "relativePath": "textures\\brick2.png"
   }
 }

@@ -17,17 +17,11 @@ cc.Class({
   },
   // use this for initialization
   onLoad: function onLoad() {
-    //安卓返回键退出
-    cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, function (event) {
-      if (event.keyCode === cc.KEY.back) {
-        cc.director.end();
-      }
-    });
     this.physicsManager = cc.director.getPhysicsManager();
     this.gameModel = new GameModel();
     this.startGame();
   },
-  init: function init() {
+  startGame: function startGame() {
     this.physicsManager.enabled = true;
     this.gameModel.init();
     this.gameView.init(this);
@@ -35,15 +29,6 @@ cc.Class({
     this.paddle.init();
     this.brickLayout.init(this.gameModel.bricksNumber);
     this.overPanel.init(this);
-  },
-  startGame: function startGame() {
-    this.init();
-  },
-  pauseGame: function pauseGame() {
-    this.physicsManager.enabled = false;
-  },
-  resumeGame: function resumeGame() {
-    this.physicsManager.enabled = true;
   },
   stopGame: function stopGame() {
     this.physicsManager.enabled = false;

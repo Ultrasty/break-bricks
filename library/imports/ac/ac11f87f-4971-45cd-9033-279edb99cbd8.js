@@ -12,7 +12,7 @@ cc.Class({
   },
   init: function init() {
     this.score = 0;
-    this.bricksNumber = 50;
+    this.bricksNumber = 10;
   },
   addScore: function addScore(score) {
     this.score += score;
