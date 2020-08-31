@@ -555,8 +555,8 @@
     "relativePath": "scripts\\model"
   },
   "2ad79e41-5421-437f-8f76-a4ca4ebf5cdc": {
-    "asset": 1598890750691,
-    "meta": 1598891042306,
+    "asset": 1598894438278,
+    "meta": 1598895559771,
     "relativePath": "scripts\\view"
   },
   "e4735516-de51-4f32-85b4-acadb6a1bb06": {
@@ -565,13 +565,13 @@
     "relativePath": "scripts\\view\\GameView.js"
   },
   "2ef97242-9501-4637-ab4d-d2e235f1f114": {
-    "asset": 1598895467733,
-    "meta": 1598895467767,
+    "asset": 1598896583959,
+    "meta": 1598896584032,
     "relativePath": "scenes\\game.fire"
   },
   "781eefd2-30d7-4a45-8baa-80a0261353db": {
-    "asset": 1598890151468,
-    "meta": 1598890174671,
+    "asset": 1598893295952,
+    "meta": 1598895559775,
     "relativePath": "textures"
   },
   "8f051a98-6f3e-4b85-9892-34969dd0a738": {
@@ -649,14 +649,14 @@
     "meta": 1598894722392,
     "relativePath": "scripts\\controller\\GameCtl.js"
   },
-  "60425cd1-210e-4b34-867a-2a6679a7f2cd": {
-    "asset": 1598895055754,
-    "meta": 1598895056989,
-    "relativePath": "scripts\\view\\OverPanel.js"
-  },
   "31d9f2d2-255f-49c8-8190-53656b4722f1": {
     "asset": 1598895243851,
     "meta": 1598895257460,
     "relativePath": "scripts\\view\\firststart.js"
+  },
+  "60425cd1-210e-4b34-867a-2a6679a7f2cd": {
+    "asset": 1598896509882,
+    "meta": 1598896511109,
+    "relativePath": "scripts\\view\\OverPanel.js"
   }
 }

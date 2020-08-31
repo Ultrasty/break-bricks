@@ -8,7 +8,8 @@ cc.Class({
   "extends": cc.Component,
   properties: {
     resultLabel: cc.Label,
-    scoreLabel: cc.Label
+    scoreLabel: cc.Label,
+    firststartbtn: cc.Node
   },
   init: function init(gameCtl) {
     this.gameCtl = gameCtl;
@@ -27,6 +28,7 @@ cc.Class({
   },
   onBtnRestart: function onBtnRestart() {
     this.gameCtl.startGame();
+    this.firststartbtn.active = false;
   }
 });
 

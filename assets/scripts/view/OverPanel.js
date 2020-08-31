@@ -4,6 +4,7 @@ cc.Class({
     properties: {
         resultLabel:cc.Label,
         scoreLabel:cc.Label,
+        firststartbtn:cc.Node,
     },
 
     init(gameCtl){
@@ -23,5 +24,6 @@ cc.Class({
 
     onBtnRestart(){
         this.gameCtl.startGame();
+        this.firststartbtn.active=false;
     }
 });
