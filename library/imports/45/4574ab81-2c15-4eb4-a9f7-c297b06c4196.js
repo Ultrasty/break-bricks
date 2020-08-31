@@ -8,9 +8,9 @@ cc.Class({
   "extends": cc.Component,
   init: function init(gameCtl) {
     this.gameCtl = gameCtl;
-    this.node.position = cc.v2(400, 600); //初始化位置
+    this.node.position = cc.v2(-380, 580); //初始化位置
 
-    this.getComponent(cc.RigidBody).linearVelocity = cc.v2(200, 700); //初始化速度
+    this.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, 0); //初始化速度
   },
   onBeginContact: function onBeginContact(contact, self, other) {
     switch (other.tag) {

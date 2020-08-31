@@ -8,7 +8,7 @@ cc.Class({
 
     init(){
         this.score = 0;
-        this.bricksNumber = 10;
+        this.bricksNumber = 50;
     },
 
     addScore(score){

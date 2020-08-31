@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'cddac13mk5Dkb3uKOvRGx43', 'Ball2');
-// scripts/view/Ball2.js
+cc._RF.push(module, 'a2983WNMIJKwrBsHTEXhdxh', 'Ball3');
+// scripts/view/Ball3.js
 
 "use strict";
 
@@ -8,9 +8,9 @@ cc.Class({
   "extends": cc.Component,
   init: function init(gameCtl) {
     this.gameCtl = gameCtl;
-    this.node.position = cc.v2(-580, 580); //初始化位置
+    this.node.position = cc.v2(2 + 80, 580); //初始化位置
 
-    this.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, 0); //初始化速度
+    this.getComponent(cc.RigidBody).linearVelocity = cc.v2(200, 0); //初始化速度
   },
   onBeginContact: function onBeginContact(contact, self, other) {
     switch (other.tag) {

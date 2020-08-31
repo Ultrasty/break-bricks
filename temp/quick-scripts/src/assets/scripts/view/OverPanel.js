@@ -10,8 +10,6 @@ cc.Class({
     resultLabel: cc.Label,
     scoreLabel: cc.Label
   },
-  // use this for initialization
-  onLoad: function onLoad() {},
   init: function init(gameCtl) {
     this.gameCtl = gameCtl;
     this.node.active = false;

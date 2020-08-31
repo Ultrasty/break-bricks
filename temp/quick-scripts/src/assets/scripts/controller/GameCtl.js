@@ -12,15 +12,21 @@ cc.Class({
     gameView: require('GameView'),
     ball1: require('Ball1'),
     ball2: require('Ball2'),
+    ball3: require('Ball3'),
+    firststart: require('firststart'),
     paddle: require('Paddle'),
     brickLayout: require('BrickLayout'),
     overPanel: require('OverPanel')
   },
-  // use this for initialization
   onLoad: function onLoad() {
     this.physicsManager = cc.director.getPhysicsManager();
     this.gameModel = new GameModel();
-    this.startGame();
+    this.physicsManager.enabled = true;
+    this.gameModel.init();
+    this.gameView.init(this);
+    this.paddle.init();
+    this.overPanel.init(this);
+    this.firststart.init(this);
   },
   startGame: function startGame() {
     this.physicsManager.enabled = true;
@@ -28,6 +34,7 @@ cc.Class({
     this.gameView.init(this);
     this.ball1.init(this);
     this.ball2.init(this);
+    this.ball3.init(this);
     this.paddle.init();
     this.brickLayout.init(this.gameModel.bricksNumber);
     this.overPanel.init(this);

@@ -3,8 +3,8 @@ cc.Class({
 
     init(gameCtl) {
         this.gameCtl = gameCtl;
-        this.node.position = cc.v2(560,600);//初始化位置
-        this.getComponent(cc.RigidBody).linearVelocity = cc.v2(200,700);//初始化速度
+        this.node.position = cc.v2(-580,580);//初始化位置
+        this.getComponent(cc.RigidBody).linearVelocity = cc.v2(0,0);//初始化速度
     },
 
     onBeginContact(contact, self, other) {
