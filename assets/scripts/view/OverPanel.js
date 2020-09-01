@@ -19,6 +19,7 @@ cc.Class({
         }else{
             this.resultLabel.string = 'GAME OVER';
         }
+        
         this.scoreLabel.string ='Final Score: '+ score;
     },
 
