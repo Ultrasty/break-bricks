@@ -12,7 +12,6 @@
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/migration/use_v2.0.x_cc.Toggle_event');
 require('./assets/scripts/controller/GameCtl');
-require('./assets/scripts/model/GameModel');
 require('./assets/scripts/view/Ball1');
 require('./assets/scripts/view/Ball2');
 require('./assets/scripts/view/Ball3');
@@ -124,40 +123,6 @@ cc._RF.pop();
                     }
                 })();
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2V0c1xcc2NyaXB0c1xcdmlld1xcUGFkZGxlLmpzIl0sIm5hbWVzIjpbImNjIiwiQ2xhc3MiLCJDb21wb25lbnQiLCJvbkxvYWQiLCJub2RlIiwicGFyZW50Iiwib24iLCJldmVudCIsIngiLCJnZXRMb2NhdGlvbiIsImluaXQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUFBLEVBQUUsQ0FBQ0MsS0FBSCxDQUFTO0FBQ0wsYUFBU0QsRUFBRSxDQUFDRSxTQURQO0FBR0xDLEVBQUFBLE1BQU0sRUFBRSxrQkFBWTtBQUFBOztBQUVoQixTQUFLQyxJQUFMLENBQVVDLE1BQVYsQ0FBaUJDLEVBQWpCLENBQW9CLFdBQXBCLEVBQWlDLFVBQUNDLEtBQUQsRUFBVztBQUFDO0FBQ3pDLE1BQUEsS0FBSSxDQUFDSCxJQUFMLENBQVVJLENBQVYsR0FBY0QsS0FBSyxDQUFDRSxXQUFOLEdBQW9CRCxDQUFsQyxDQUR3QyxDQUNKO0FBQ3ZDLEtBRkQ7QUFHSCxHQVJJO0FBVUxFLEVBQUFBLElBVkssa0JBVUM7QUFDRixTQUFLTixJQUFMLENBQVVJLENBQVYsR0FBYyxHQUFkO0FBQ0g7QUFaSSxDQUFUIiwic291cmNlUm9vdCI6Ii8iLCJzb3VyY2VzQ29udGVudCI6WyJjYy5DbGFzcyh7XHJcbiAgICBleHRlbmRzOiBjYy5Db21wb25lbnQsXHJcblxyXG4gICAgb25Mb2FkOiBmdW5jdGlvbiAoKSB7XHJcbiAgICAgICAgXHJcbiAgICAgICAgdGhpcy5ub2RlLnBhcmVudC5vbihcIm1vdXNlbW92ZVwiLCAoZXZlbnQpID0+IHsvLy/kvb/nlKjkuovku7blkI1tb3VzZW1vdmXmnaXms6jlhozpvKDmoIfkuovku7ZcclxuICAgICAgICAgICAgdGhpcy5ub2RlLnggPSBldmVudC5nZXRMb2NhdGlvbigpLng7Ly/pvKDmoIfnp7vliqjop6blj5Hkuovku7bnu5lQYWRkbGXnmoTkvY3nva7ph43mlrDotYvlgLxcclxuICAgICAgICB9KTtcclxuICAgIH0sXHJcblxyXG4gICAgaW5pdCgpe1xyXG4gICAgICAgIHRoaXMubm9kZS54ID0gNDgwO1xyXG4gICAgfSxcclxuXHJcbn0pOyJdfQ==
-//------QC-SOURCE-SPLIT------
-
-                (function() {
-                    var nodeEnv = typeof require !== 'undefined' && typeof process !== 'undefined';
-                    var __module = nodeEnv ? module : {exports:{}};
-                    var __filename = 'preview-scripts/assets/scripts/model/GameModel.js';
-                    var __require = nodeEnv ? function (request) {
-                        return cc.require(request);
-                    } : function (request) {
-                        return __quick_compile_project__.require(request, __filename);
-                    };
-                    function __define (exports, require, module) {
-                        if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}"use strict";
-cc._RF.push(module, 'ac11fh/SXFFzZAzJ57bmcvY', 'GameModel');
-// scripts/model/GameModel.js
-
-"use strict";
-
-cc.Class({
-  "extends": cc.Component
-});
-
-cc._RF.pop();
-                    }
-                    if (nodeEnv) {
-                        __define(__module.exports, __require, __module);
-                    }
-                    else {
-                        __quick_compile_project__.registerModuleFunc(__filename, function () {
-                            __define(__module.exports, __require, __module);
-                        });
-                    }
-                })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2V0c1xcc2NyaXB0c1xcbW9kZWxcXEdhbWVNb2RlbC5qcyJdLCJuYW1lcyI6WyJjYyIsIkNsYXNzIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7OztBQUFBQSxFQUFFLENBQUNDLEtBQUgsQ0FBUztBQUNMLGFBQVNELEVBQUUsQ0FBQ0U7QUFEUCxDQUFUIiwic291cmNlUm9vdCI6Ii8iLCJzb3VyY2VzQ29udGVudCI6WyJjYy5DbGFzcyh7XHJcbiAgICBleHRlbmRzOiBjYy5Db21wb25lbnQsXHJcblxyXG4gICBcclxuXHJcblxyXG59KTtcclxuIl19
 //------QC-SOURCE-SPLIT------
 
                 (function() {

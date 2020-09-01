@@ -49,11 +49,6 @@
     "meta": 1598890174473,
     "relativePath": "scripts\\controller"
   },
-  "4edadf36-9140-4808-8b00-bbfc6d643911": {
-    "asset": 1598890151448,
-    "meta": 1598890174526,
-    "relativePath": "scripts\\model"
-  },
   "2ad79e41-5421-437f-8f76-a4ca4ebf5cdc": {
     "asset": 1598894438278,
     "meta": 1598895559771,
@@ -143,11 +138,6 @@
     "asset": 1598967682119,
     "meta": 1598967683736,
     "relativePath": "scripts\\view\\Ball2.js"
-  },
-  "ac11f87f-4971-45cd-9033-279edb99cbd8": {
-    "asset": 1598971938082,
-    "meta": 1598971939767,
-    "relativePath": "scripts\\model\\GameModel.js"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
     "asset": 1597076317374,
@@ -650,8 +640,8 @@
     "relativePath": "model\\primitives.fbx"
   },
   "2ef97242-9501-4637-ab4d-d2e235f1f114": {
-    "asset": 1598980527031,
-    "meta": 1598980527059,
+    "asset": 1598980725783,
+    "meta": 1598980725810,
     "relativePath": "scenes\\game.fire"
   },
   "4dc82735-a8ef-4a6d-906c-31919b1e5315": {

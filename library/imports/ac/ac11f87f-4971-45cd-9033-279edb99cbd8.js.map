@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets\\scripts\\model\\GameModel.js"],"names":["cc","Class","Component"],"mappings":";;;;;;AAAAA,EAAE,CAACC,KAAH,CAAS;AACL,aAASD,EAAE,CAACE;AADP,CAAT","sourceRoot":"/","sourcesContent":["cc.Class({\r\n    extends: cc.Component,\r\n\r\n   \r\n\r\n\r\n});\r\n"]}
