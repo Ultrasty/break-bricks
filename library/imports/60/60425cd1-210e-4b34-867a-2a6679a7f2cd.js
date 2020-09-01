@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '60425zRIQ5LNIZ6KmZ5p/LN', 'OverPanel');
-// scripts/view/OverPanel.js
+cc._RF.push(module, '60425zRIQ5LNIZ6KmZ5p/LN', 'gameover');
+// scripts/gameover.js
 
 "use strict";
 

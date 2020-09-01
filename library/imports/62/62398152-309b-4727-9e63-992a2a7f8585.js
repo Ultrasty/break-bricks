@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '62398FSMJtHJ55jmSoqf4WF', 'BrickLayout');
-// scripts/view/BrickLayout.js
+cc._RF.push(module, '62398FSMJtHJ55jmSoqf4WF', 'bricks');
+// scripts/bricks.js
 
 "use strict";
 

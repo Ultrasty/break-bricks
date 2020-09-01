@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'e4735UW3lFPMoW0rK22obsG', 'GameView');
-// scripts/view/GameView.js
+cc._RF.push(module, 'e4735UW3lFPMoW0rK22obsG', 'view');
+// scripts/view.js
 
 "use strict";
 

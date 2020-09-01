@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '4dc82c1qO9KbZBsMZGbHlMV', 'Paddle');
-// scripts/view/Paddle.js
+cc._RF.push(module, '4dc82c1qO9KbZBsMZGbHlMV', 'board');
+// scripts/board.js
 
 "use strict";
 

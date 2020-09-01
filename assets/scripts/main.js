@@ -4,14 +4,14 @@ cc.Class({
 
     properties: {
         pause: cc.Label,
-        gameView: require('GameView'),
+        gameView: require('view'),
         ball1: require('Ball1'),
         ball2: require('Ball2'),
         ball3: require('Ball3'),
         firststart: require('firststart'),
-        paddle: require('Paddle'),
-        brickLayout: require('BrickLayout'),
-        overPanel: require('OverPanel'),
+        paddle: require('board'),
+        brickLayout: require('bricks'),
+        overPanel: require('gameover'),
         score:0,
         bricksNumber:0,
     },
