@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 250.33750915527344,
+                "height": 251.21250915527344,
                 "type": "panel",
                 "width": 302
               },
@@ -28,12 +28,12 @@
                   "assets",
                   "cloud-function"
                 ],
-                "height": 466.76251220703125,
+                "height": 468.38751220703125,
                 "type": "panel",
                 "width": 302
               }
             ],
-            "height": 720.1000366210938,
+            "height": 722.6000366210938,
             "type": "dock-v",
             "width": 302
           },
@@ -46,21 +46,21 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 451.0625,
+                    "height": 453.375,
                     "type": "panel",
-                    "width": 590
+                    "width": 589.2999877929688
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 451.0625,
+                    "height": 453.375,
                     "type": "panel",
-                    "width": 265
+                    "width": 265.6875
                   }
                 ],
-                "height": 451.0625,
+                "height": 453.375,
                 "type": "dock-h",
                 "width": 858
               },
@@ -71,12 +71,12 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 266.0375061035156,
+                "height": 266.2250061035156,
                 "type": "panel",
                 "width": 858
               }
             ],
-            "height": 720.1000366210938,
+            "height": 722.6000366210938,
             "type": "dock-v",
             "width": 858
           },
@@ -86,7 +86,7 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 720.1000366210938,
+            "height": 722.6000366210938,
             "type": "panel",
             "width": 370
           }
@@ -105,8 +105,7 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    "window-1598975528410": {}
+    }
   },
   "panels": {
     "builder": {

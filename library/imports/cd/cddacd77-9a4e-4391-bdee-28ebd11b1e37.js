@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'cddac13mk5Dkb3uKOvRGx43', 'Ball2');
-// scripts/view/Ball2.js
+// scripts/Ball2.js
 
 "use strict";
 

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '31d9fLSJV9JyIGQU2VrRyLx', 'firststart');
-// scripts/view/firststart.js
+// scripts/firststart.js
 
 "use strict";
 
