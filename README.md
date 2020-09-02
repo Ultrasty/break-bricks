@@ -20,7 +20,7 @@
 
 其内容提炼如下：
 
-> 从https://www.cocos.com/creator/下载Dashboard，安装
+> 从https://www.cocos.com/creator/ 下载Dashboard，安装
 >
 > 打开Dashboard，下载2.4.2版本
 
