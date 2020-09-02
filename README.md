@@ -18,13 +18,20 @@
 
 本项目使用cocos creator v2.4.2开发，其包含了轻量的游戏引擎，基于Cocos2d-x
 
-参照官方文档https://docs.cocos.com/creator/manual/zh/getting-started/install.html 进行环境配置。
+参照官方文档https://docs.cocos.com/creator/manual/zh/getting-started/install.html进行环境配置。
 
 其内容提炼如下：
 
-> 从https://www.cocos.com/creator/ 下载Dashboard，安装
+> 从https://www.cocos.com/creator/下载Dashboard，安装
 >
 > 打开Dashboard，下载2.4.2版本
 
 然后在cocos creator中打开本项目即可查看，可以通过菜单栏的项目->构建发布进行项目的编译。
 
+在压缩包中已经把项目编译好并放入build文件夹中，只要将build文件夹中的所有内容放入web服务器的目录下即可完成部署，**通过IP+端口来访问**。
+
+**如果不通过服务器直接打开build文件夹下的index.html是无法启动本游戏的。**
+
+### 游戏说明
+
+游戏设计在打砖块的基础上增加了一些趣味玩法，为了增加游戏难度，在游戏中设置了两个小球，红色小球的质量和白色小球质量一样，都为m，白色小球带正电并且处于方向向上的电场中因此受力平衡，做匀速直线运动，红色小球在重力场的作用下做变速运动，轨迹为抛物线。游戏中的所有碰撞均为完全弹性碰撞，两小球相撞遵循动量守恒定律，任意小球掉落出游戏场景均会导致游戏失败。按右上角暂停键可以暂停游戏。小球与板的边缘碰撞会根据矩形直角与圆形圆心的连线作为法线计算碰撞后的速度方向，据此可以人为改变小球反射角度。
