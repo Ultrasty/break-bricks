@@ -16,7 +16,7 @@
 
 本项目使用cocos creator v2.4.2开发，其包含了轻量的游戏引擎，基于Cocos2d-x
 
-参照官方文档https://docs.cocos.com/creator/manual/zh/getting-started/install.html进行环境配置。
+参照官方文档https://docs.cocos.com/creator/manual/zh/getting-started/install.html 进行环境配置。
 
 其内容提炼如下：
 
