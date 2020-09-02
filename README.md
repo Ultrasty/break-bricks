@@ -1,5 +1,7 @@
 # 打砖块
 
+本项目代码托管在 https://github.com/Ultrasty/break-bricks
+
 代码量并不算大，但是算上cocos引擎的学习成本还是花了不少时间的
 
 熟悉了cocos引擎的各种API
